@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:question_solid_oop/model/content_display_abstract.dart';
+import 'package:question_solid_oop/questions/extensibility_in_multi_type_content/model/content_display_abstract.dart';
 
 class ContentText extends ContentDisplayAbstract {
   final String? text;
