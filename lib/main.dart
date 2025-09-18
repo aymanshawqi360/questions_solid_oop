@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:question_solid_oop/questions/extensibility_in_multi_type_content/model/content_display_abstract.dart';
+import 'package:question_solid_oop/questions/extensibility_in_multi_type_content/model/content_item.dart';
 import 'package:question_solid_oop/questions/widget_safety_in_navigation/model/home_screen.dart';
 import 'package:question_solid_oop/questions/widget_safety_in_navigation/model/navigation_button.dart';
 
 void main() {
   //!extensibility_in_multi_type_content
-  //runApp(ContentDisplay([ContentVideo("videoOne"), ContentVideo("videoTwo")]));
+  runApp(ContentDisplay([ContentVideo("videoOne"), ContentVideo("videoTwo")]));
   //!Video
   // [
   //   ContentVideo("videoOne"), ContentVideo("videoTwo")
