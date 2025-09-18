@@ -93,7 +93,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Smart Ahwa Manager")),
+      appBar: AppBar(backgroundColor: Colors.blue),
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 20, vertical: 16),
         child: Form(
